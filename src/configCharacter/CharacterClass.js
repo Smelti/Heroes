@@ -5,8 +5,8 @@ export default class Character {
         this.type = type
         this.health = 100;
         this.level = 1
-        this.attack = 0;
-        this.defence = 0;
+        this.attack = null;
+        this.defence = null;
     
         if (name.length < 2 || name.length > 10) {
         throw new Error('Имя должно содержать от 2 до 10 символов.')
